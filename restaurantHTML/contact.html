@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Calarca Coffee Shop</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Calarca Coffee Shop - Bushwick</h1>
+            <nav>
+                <hr />
+                <p><a href="index.html">Home</a></p>
+                <p><a href="menu.html">Menu</a></p>
+                <p><a href="#">Contact Us</a></p>
+                <hr />
+            </nav>
+        </header>
+
+        <section class="contact-us">
+            <form action="#" method="POST">
+                <label for="name">Name:</label> <br>
+                <input type="text" id="name" name="name" />
+                <br>
+                <label for="email">Email:</label> <br>
+                <input type="text" id="email" name="email" />
+                <br>
+                <label for="phoneNumber">Phone:</label> <br>
+                <input type="text" id="phoneNumber" name="phoneNumber" />
+                <br>
+                <label for="inquery">Reason for inquery:</label> <br>
+                <select id="inquery" name="inquery">
+                    <option value="catering">Catering</option>
+                    <option value="party">Private Party</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="other">Other</option>
+                </select>
+                <br>
+                <label for="info">Additional information:</label> <br>
+                <textarea id="info" name="info"></textarea><br />
+                <br>
+                <label for="visited">Have you been to the Coffee Shop?</label> <br>
+                <input id="visited" type="radio" name="answer" value="NO" checked />No<br />
+                <input id="visited" type="radio" name="answer" value="YES" />Yes<br />
+
+                <label for="days">Best days to contact you:</label> <br>
+                <input id="days" type="checkbox" name="monday" value="monday" />M
+                <input id="days" type="checkbox" name="tuesday" value="tuesday" />T
+                <input id="days" type="checkbox" name="wednesday" value="wednesday" />W
+                <input id="days" type="checkbox" name="thursday" value="thursday" />Th
+                <input id="days" type="checkbox" name="friday" value="friday" />F <br>
+                <input id="submit" type="submit" value="Send Request" />
+            </form>
+        </section>
+
+
+        <footer>
+            <hr />
+            <p class="address">Address: 172 Suydam St, Bushwick, Brooklyn, 11221</p>
+            <p class="phoneNumber"> Phone Number: 347-593-7475</p>
+        </footer>
+    </main>
+
+</body>
+
+</html>

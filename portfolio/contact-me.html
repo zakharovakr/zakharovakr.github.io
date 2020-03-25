@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contact Kristina Zakharova</title>
+    </head>
+    <body>
+        <main>
+            <header>
+                <h1>Contact Me</h1>
+                <hr />
+                <p><a href="index.html">Home</a></p>
+                <hr />
+            </header>
+            <section>
+                <h2>Information Request</h2>
+
+                <form action="#" method="POST">
+                    <label for="firstName">First Name:</label> <br>
+                        <input type="text" id="firstName" name="firstName"/>
+                        <br>
+                        <label for="secondName">Second Name:</label> <br>
+                        <input type="text" id="secondName" name="secondName"/>
+                        <br>
+                        <label for="phoneNumber">Phone Number:</label> <br>
+                        <input type="text" id="phoneNumber" name="phoneNumber"/>
+                        <br>
+                        <label for="times">Best times to call:</label> <br>
+                        <select id="times" name="times">
+                                <option value="morning">Morning (8AM to 12PM Eastern)</option>
+                                <option value="afternoon">Afternoon (12PM to 5PM Eastern)</option>
+                                <option value="evening">Evening (5PM to 8PM Eastern)</option>
+                            </select>
+                            <br>
+                            <label for="myInterest">I am interested in (check all that apply):</label>
+                            <fieldset id="myInterest"> 
+                                    <input type="checkbox" name="frontEnd" value="frontEnd"/>Frond-End Web Development<br />
+                                    <input type="checkbox" name="backEnd" value="backEnd"/>Back-End Web Development<br />
+                                    <input type="checkbox" name="database" value="database"/>Database Design<br />
+                            </fieldset>
+                            <label for="clientForm">I have filled in the client questionnaire form:</label>
+                            <fieldset id="clientForm">
+                                    <input type="radio" name="answer" value="YES"/>Yes<br />
+                                    <input type="radio" name="answer" value="NO" />No<br />
+                            </fieldset>
+                            <label for="info">Additional information:</label> <br>
+                            <textarea id="info" name="info"></textarea><br />
+                            <input type="submit" />
+                            
+                    </form>
+            </section>
+        </main>
+    </body>
+</html>
