@@ -1,0 +1,15 @@
+nav {
+    border-top: thin #5b7d87 solid;
+    border-bottom: thin #5b7d87 solid;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+nav .btn {
+    background-color: coral;
+    color: #fef9ff; 
+}
+
+nav .btn:hover {
+    font-weight: bold;
+}
