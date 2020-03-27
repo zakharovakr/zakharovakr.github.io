@@ -1,15 +1,49 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+.subtitle, .experience-table, .hobbies-list {
+    display: none;
+}
+
+.jumbotron {
+    min-height: 200px;
+    background-color: #5D5F5C;
+    background-image: url(images/mountains-colombia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 0;
+    color: black;
+    text-shadow: 2px 2px black;
+}
+
 nav {
-    border-top: thin #5b7d87 solid;
-    border-bottom: thin #5b7d87 solid;
+    /*border-top: thin #5b7d87 solid;
+    border-bottom: thin #5b7d87 solid;*/
     padding-top: 12px;
     padding-bottom: 12px;
+    margin-bottom: 20px;
 }
 
 nav .btn {
-    background-color: coral;
+    background-color: #F07249;
     color: #fef9ff; 
 }
 
 nav .btn:hover {
     font-weight: bold;
+    background-color: #D22C2C;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.page-footer {
+    background-color: rgb(240, 114, 73);
+    color: white;
 }
