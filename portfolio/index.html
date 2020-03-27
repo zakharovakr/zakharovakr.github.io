@@ -2,45 +2,84 @@
 <!--
     Name: Kristina Zakharova
     Date Created: 03/24/2020 
-    Most recent revision: 03/24/2020
+    Most recent revision: 03/25/2020
 -->
 <html lang="en">
 
 <head>
     <title>Kristina Zakharova's Portfolio</title>
+    <!--<link rel="stylesheet" href="teststyles.css">-->
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+    <style>
+            caption {
+                font-weight: bold;
+                font-size: 1.2em;
+                margin-bottom: 8px;
+            }
+    
+            table, th, td {
+                border: 1px solid #0d1f2d;
+                border-collapse: collapse;
+                padding: 5px 10px;
+            }
+    
+            table {
+                width: 90%;
+                margin: auto;
+            }
+    
+            tr {
+                height: 30px;
+            } 
+    
+            th {
+                background-color: #546a7b;
+                color: #f2eded;
+            } 
+    
+            tbody tr:nth-child(odd) {
+                background-color: #e4c3ad; 
+            }   
+        </style>
 </head>
 
 <body>
     <main>
         <header>
-            <h1>Portfolio for Kristina Zakharova</h1>
-
+                <h1>Portfolio for Kristina Zakharova</h1>
             <nav> <!-- The nav element will include navigation buttons or links -->
-                <hr /> 
+                
+                <!--<hr style="border: thin dotted red;" />-->
                 <p><a href="projects.html">Projects</a></p>
                 <p><a href="contact-me.html">Contact Me</a></p>
                 <p><a href="testimonials.html">Testimonials</a></p>
-                <hr />
+                
+                <!--<hr style="width: 50%; border: 2px solid blueviolet;" />-->
             </nav>
+            
         </header>
 
         <section>
             <article id="about-me">
-                <h2><em>About Me</em></h2>
-                <img src="images/portrait.jpeg" alt="Portrait of Kristina Zakharova" width="300px" />
-                <p>Hi, I'm Kristina. I am currently on my <strong>career change journey</strong> aspiring to become a
+                
+                <img class="myPhoto" src="images/summer1.jpeg" alt="Portrait of Kristina Zakharova" width="400px" />
+                <div class="about-me-wrapper">
+                <h2 class="about-me-heading">About Me</h2>
+                <p class="about-me-content">Hi, I'm Kristina. I am currently on my <strong>career change journey</strong> aspiring to become a
                     Full Stack developer. I am attending LaGuardia's TechHire Open Code Bootcamp in NYC.</p>
-                <p>I originally come from Russia, but have been living in NYC since 2018.</p>
+                <p class="about-me-content">I originally come from Russia, but have been living in NYC since 2018.</p>
+            </div>
             </article>
 
             <article id="experience">
-                <h2><em>Past Experiences</em></h2>
-                <img src="images/teaching.png" alt="Teaching English in Colombia" width="300px" />
-                <p>I was doing a lot of different things prior to embarquing on my journey to become a professional
+                <img class="experience-img" src="images/teaching.png" alt="Teaching English in Colombia" width="400px" />
+                <h2 class="experience-heading">Past Experiences</h2>
+                <p class="experience-content">I was doing a lot of different things prior to embarquing on my journey to become a professional
                     developer. I
                     worked as a tour gouide, an English teacher, a journalist, an online events manager...You name it.
                 </p>
-                <p>I have always loved languages, however. And one day I realized that programming languages are
+                <p class="experience-content"> I have always loved languages, however. And one day I realized that programming languages are
                     languages, too!
                 </p>
                 <table>
@@ -70,16 +109,17 @@
             </article>
 
             <article id="hobbies">
-                <h2><em>Hobbies</em></h2>
-                <img src="images/yoga.jpeg" alt="Kristina practicing yoga" width="300px" />
-                <p>I am a <strong>yoga</strong> enthusiast. I strongly believe that if you can control your body, you
+                <h2 class="hobbies-heading">Hobbies</h2>
+                <img class="hobbies-img" src="images/summer2.jpeg" alt="Kristina practicing yoga" width="400px" />
+                <p id="hobbies-content1" class="hobbies-content">I am a <strong>yoga</strong> enthusiast. I strongly believe that if you can control your body, you
                     can control
                     everything in
                     life. Yoga, and especially my inversions practice, is constantly challenging me and showing me that
                     everything is possible.</p>
-                <p>I also love traveling and learning foreign languages. I speak Russian, Englishm Spanish, German and
+                <p class="hobbies-content">I also love traveling and learning foreign languages. I speak Russian, Englishm Spanish, German and
                     Portugues, and something is telling me I'm not going to stop there. To me, languages are about
                     understanding, connection and bringing people together. </p>
+                    <div style="clear:both"></div>
                 <ul>
                     <li>Hobbies</li>
                     <ol>
