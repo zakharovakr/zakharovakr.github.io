@@ -29,14 +29,15 @@ nav {
     margin-bottom: 20px;
 }
 
-nav .btn {
+.btn {
     background-color: #F07249;
     color: #fef9ff; 
 }
 
-nav .btn:hover {
+.btn:hover {
     font-weight: bold;
     background-color: #D22C2C;
+    color: #fef9ff; 
 }
 
 .row {
