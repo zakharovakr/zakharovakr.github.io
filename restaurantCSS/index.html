@@ -1,14 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
+    <title>Calarca Coffee</title>
+    <!-- Bootstrap CDN copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/restaurantStyles.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Homemade+Apple&display=swap" rel="stylesheet">
 
-    <img src="images/coming-soon.jpg" alt="Coming Soon">
-    
+
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1 class="page-title jumbotron text-center">Calarca Coffee Shop - Bushwick</h1>
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <a class="navbar-brand" href="#">Calarca Coffee</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <section class="restaurant-description">
+            <div class="row">
+                <img class="col-sm-12 col-md-6 col-lg-4" src="images/coffee_main.jpg" alt="Main coffeeshop image">
+
+                <div class="col-sm-12 col-md-6 col-lg-8">
+                    <h2>100% Colombian Coffee from the Heart of the Coffee Triangle</h2>
+                    <p>
+                        Colombia is a world leading coffee producer. Colombia is synonumous with good coffee.
+                    </p>
+                    <p>
+                        We work directly with local farmers from different regions of the country making sure you only
+                        get
+                        100%
+                        Colombian coffee.
+                        Most of our Colombian partners are located in "Eje Cafetero" - the famous Coffee Triange right
+                        in
+                        the
+                        heart of the country.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <img class="col-sm-12 col-md-6 col-lg-4" src="images/eje-cafetero.jpg" alt="Colombian Coffee Triangle Landscape">
+                <div class="col-sm-12 col-md-6 col-lg-8">
+                    <p>
+                        Calarca is a small town in the Colombian Coffee Triangle with outstanding coffee producing
+                        culture.
+                    </p>
+                    <p>Besides serving hight quality coffee, we also offer you other traditional Colombian beverages and
+                        small
+                        bites, like <strong>agua de panela</strong>, <strong>chocolate santafereño</strong>,
+                        <strong>pandebono</strong> and much more! Visit us and get a real Colombian experience in
+                        Bushwick.</p>
+                </div>
+            </div>
+        </section>
+        <section class="reviews text-center">
+            <p>Read a recent review!</p>
+        </section>
+
+        <footer class="page-footer jumbotron">
+            <p class="address">Address: 172 Suydam St, Bushwick, Brooklyn, 11221</p>
+            <p class="phoneNumber"> Phone Number: 347-593-7475</p>
+        </footer>
+    </main>
+
+    <!-- CDN links copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

@@ -1,0 +1,44 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    background-color: #5D5F5C;
+    color: white;
+}
+
+h1, h2, h3 {
+    font-family: 'Homemade Apple', cursive;
+}
+
+a:hover {
+    font-weight: 700;
+}
+
+
+.jumbotron {
+    background-color: #6E1B09;
+    color: white;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-size: 38px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+nav {
+    background-color: #393A3C;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.page-footer {
+    background-color: #393A3C;
+}
