@@ -13,15 +13,24 @@ a:hover {
     font-weight: 700;
 }
 
-
 .jumbotron {
     background-color: #6E1B09;
     color: white;
     border-radius: 0;
-    margin-bottom: 0;
+    margin: 0;
+}
+
+svg {
+    fill: white;
+}
+
+svg:hover{
+    fill: #1e4d2b;
 }
 
 h1 {
+    padding: 0;
+    margin: 0;
     font-size: 38px;
 }
 
@@ -32,10 +41,11 @@ h2 {
 nav {
     background-color: #393A3C;
     margin: 0;
+    padding: 0;
     margin-bottom: 20px;
 }
 
-.row {
+.description-row {
     margin-bottom: 20px;
 }
 
