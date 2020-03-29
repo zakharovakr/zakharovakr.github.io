@@ -52,3 +52,15 @@ nav {
 .page-footer {
     background-color: #393A3C;
 }
+
+/*menu additional styling*/
+
+.food-menu-heading, .drinks-menu-header, .coffee-menu-header {
+    color: #6E1B09;
+    text-decoration: underline;
+}
+
+.menu-item-heading {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+}
