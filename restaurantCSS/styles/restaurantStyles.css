@@ -1,3 +1,5 @@
+/*general font and color styles for the project*/
+
 body {
     font-family: 'PT Sans', sans-serif;
     font-size: 18px;
@@ -7,25 +9,6 @@ body {
 
 h1, h2, h3 {
     font-family: 'Homemade Apple', cursive;
-}
-
-a:hover {
-    font-weight: 700;
-}
-
-.jumbotron {
-    background-color: #6E1B09;
-    color: white;
-    border-radius: 0;
-    margin: 0;
-}
-
-svg {
-    fill: white;
-}
-
-svg:hover{
-    fill: #1e4d2b;
 }
 
 h1 {
@@ -38,6 +21,51 @@ h2 {
     font-size: 24px;
 }
 
+/*styling global links*/
+
+a {
+    text-decoration: underline;
+    color: #6E1B09;
+}
+
+/*The navigationa links should not be underlined*/
+nav a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #6E1B09;
+    font-weight: 700;
+}
+
+a.active {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #1e4d2b;
+}
+
+/*styling page header*/
+/*customizing the default styles of the bootstrap jumbotron component*/
+
+.jumbotron {
+    background-color: #6E1B09;
+    color: white;
+    border-radius: 0;
+    margin: 0;
+}
+
+/*manipulating my svg color*/
+svg {
+    fill: white;
+}
+
+svg:hover{
+    fill: #1e4d2b;
+}
+
+/*customizing the default styles of the bootstrap navigation component*/
 nav {
     background-color: #393A3C;
     margin: 0;
@@ -45,6 +73,7 @@ nav {
     margin-bottom: 20px;
 }
 
+/*styling footer*/
 .description-row {
     margin-bottom: 20px;
 }
@@ -54,6 +83,13 @@ nav {
 }
 
 /*menu additional styling*/
+
+.food-menu {
+    width: 100%;
+    margin: 0;
+    background-color: #f2f2f2;
+    color: #393A3C;
+}
 
 .food-menu-heading, .drinks-menu-header, .coffee-menu-header {
     color: #6E1B09;
