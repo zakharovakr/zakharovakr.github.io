@@ -21,6 +21,10 @@ h2 {
     font-size: 24px;
 }
 
+.description-img {
+    margin-bottom: 20px;
+}
+
 /*styling global links*/
 
 a {
@@ -94,9 +98,11 @@ nav {
 .food-menu-heading, .drinks-menu-header, .coffee-menu-header {
     color: #6E1B09;
     text-decoration: underline;
+    margin-bottom: 20px;
 }
 
 .menu-item-heading {
     font-family: 'PT Sans', sans-serif;
-    font-size: 24px;
+    font-size: 22px;
+    font-weight: 550;
 }
