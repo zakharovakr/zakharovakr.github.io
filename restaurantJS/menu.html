@@ -16,6 +16,7 @@
 </head>
 
 <body>
+    <noscript>Your browser does not support JavaScript!</noscript>
     <header>
         <h1 class="page-title jumbotron text-center">Calarca Coffee Shop - Bushwick</h1>
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
@@ -37,6 +38,13 @@
                 </ul>
             </div>
         </nav>
+        <!--Added buttons here to make sure I hit the requirements, 
+            but commenting them out because I prefer the navbar element. 
+        <nav class = "row justify-content-start">
+                <p style="background-color:white;" class = "col-2 btn"><a style="color: gray;" href = "index.html">Home</a></p>
+                <p style="background-color:white;" class = "col-2 btn"><a style="color: gray;"href = "#">Menu</a></p>
+                <p style="background-color:white;" class = "col-2 btn current-page"><a style="color: gray;" href = "contact.html">Contact Us</a></p>                
+            </nav>-->
     </header>
     <main class="container">
 
@@ -159,12 +167,12 @@
         </section>
 
         <!--Carousel Wrapper-->
-        <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+        <div id="restaurant-carousel" class="carousel slide carousel-fade" data-ride="carousel">
             <!--Indicators-->
             <ol class="carousel-indicators">
-                <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-2" data-slide-to="1"></li>
-                <li data-target="#carousel-example-2" data-slide-to="2"></li>
+                <li data-target="#restaurant-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#restaurant-carousel" data-slide-to="1"></li>
+                <li data-target="#restaurant-carousel" data-slide-to="2"></li>
             </ol>
             <!--/.Indicators-->
             <!--Slides-->
@@ -204,11 +212,11 @@
             </div>
             <!--/.Slides-->
             <!--Controls-->
-            <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+            <a class="carousel-control-prev" href="#restaurant-carousel" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
-            <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+            <a class="carousel-control-next" href="#restaurant-carousel" role="button" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>

@@ -1,11 +1,3 @@
-function reset() {
-    var name = document.getElementById('name').value;
-    name.style.display = 'none';
-    var forms = document.getElementById('myForm');
-    forms.classList.add("needs-validation");
-    var feedback = document.getElementsByClassName('invalid-feedback').style.display = 'none';
-};
-
 // Disable form submissions if there are invalid fields
 (function () {
     'use strict';
@@ -24,3 +16,4 @@ function reset() {
         });
     }, false);
 })();
+
