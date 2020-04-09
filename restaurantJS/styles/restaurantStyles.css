@@ -116,13 +116,27 @@ nav {
     font-size: 22px;
     font-weight: 550;
 }
+/*carousel custom styling*/ 
 
 .carousel-caption {
     background-color: rgba(0,0,0,0.75);
 }
 
-
 /*form styling*/
+.btn {
+    background-color: #6E1B09;
+    color: white;
+    margin: 10px;
+}
+
+.btn:hover {
+    font-weight: 700;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
 .invalid-feedback {
     color: white;
 }
@@ -134,4 +148,10 @@ nav {
 .btn-primary:hover {
     border: solid 2px #6E1B09;
     background-color: #5D5F5C;
+}
+
+/*custom styles for the modal displayed when the form is submitted*/
+#myModal {
+    display: none;
+    color: #393A3C;
 }
