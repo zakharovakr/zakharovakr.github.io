@@ -37,3 +37,7 @@ nav {
 .page-footer {
     background-color: #e9ecef;
 }
+
+#about-me, #experience, #hobbies {
+    text-align: justify;
+}
