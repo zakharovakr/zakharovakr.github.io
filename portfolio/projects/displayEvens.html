@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Display Evens</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        .form-row {
+            margin-bottom: 10px;
+        }
+
+        .btn {
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Sample</h1>
+        <form name="displayEvensForm" class="needs-validation" onsubmit = "return validate();" novalidate>
+            <div class="form-row">
+                <label class="col-3 text-right" for="startNum">Starting Number</label>
+                <input class="col-3 form-control" type="number" class="form-control" id="startNum" name="startNum" required>
+                <div class="invalid-feedback">
+                    Starting Number is required and must be a whole number.
+                </div>
+            </div> <!-- end .form-row -->
+            <div class="form-row">
+                <label class="col-3 text-right" for="endNum">Ending Number</label>
+                <input class="col-3 form-control" type="number" class="form-control" id="endNum" name="endtNum" required>
+                <div class="invalid-feedback">
+                    Ending Number is required and must be a whole number greater than the Starting Number.
+                </div>
+            </div> <!-- end .form-row -->
+            <div class="form-row">
+                <label class="col-3 text-right" for="step">Step</label>
+                <input class="col-3 form-control" type="number" class="form-control" id="step" name="step" required>
+                <div class="invalid-feedback">
+                    Step is required and must be a whole number.
+                </div>
+            </div> <!-- end .form-row -->
+            <div class="form-row">
+                <button type="submit" id="submitButton" class="btn btn-primary">
+                    Display Evens</button>
+            </div>
+        </form>
+
+        <div id="results" style="display: none">
+            <p id="resultsP">Here are the even numbers between
+                <span id="startNumber"></span> and
+                <span id="endNumber"></span> by
+                <span id="stepNumber"></span>'s:</p>
+            <p id="answers"></p>
+        </div>
+
+    </div>
+    <!--End container-->
+
+
+
+    <script src="displayEvens.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+</body>
+
+</html>
