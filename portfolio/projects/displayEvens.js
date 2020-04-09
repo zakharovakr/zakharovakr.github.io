@@ -56,7 +56,7 @@ function validate(){
     //added another if-statement in case there's no even numbers to display.
     //not sure if my logic is correct though
     if ((numStart % 2 ==1) && (stepCount %2 ==0)) {
-        document.getElementById("resultsP").style.display = "none";
+        //document.getElementById("resultsP").style.display = "none";
         document.getElementById("answers").innerText = "Oops, no evens found";
     }
     
