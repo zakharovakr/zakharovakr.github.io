@@ -141,14 +141,10 @@ form {
     color: white;
 }
 
-.btn-primary {
-    border: solid 2px #6E1B09;
+.btn-danger {
+    border: solid 1px #6E1B09;
 }
 
-.btn-primary:hover {
-    border: solid 2px #6E1B09;
-    background-color: #5D5F5C;
-}
 
 /*custom styles for the modal displayed when the form is submitted*/
 #myModal {
