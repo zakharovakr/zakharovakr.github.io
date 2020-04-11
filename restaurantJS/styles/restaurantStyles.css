@@ -137,10 +137,6 @@ form {
     margin-bottom: 20px;
 }
 
-.invalid-feedback {
-    color: white;
-}
-
 .btn-danger {
     border: solid 1px #6E1B09;
 }
